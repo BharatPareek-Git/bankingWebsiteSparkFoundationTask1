@@ -1,0 +1,60 @@
+nav {
+    background: linear-gradient(120deg, black 30%, #EAEAEA 0);
+}
+nav a {
+    color: white;
+}
+.nav-links{
+    color: black;
+}
+.header-div {
+    height: 90vh;
+    background-image: url("../img/header.png");
+}
+.header-div .header-content {
+    width: 40%;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+.header-btn {
+    background-color: transparent;
+    border: solid white 2px;
+    color: white;
+}
+.header-btn:hover {
+    background-color: white;
+    color: black;
+}
+.fa-arrow-left {
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: 900;
+    color: white;
+    background-color: black;
+}
+.table tr td{
+    padding: 15px 0;
+}
+.table tr th {
+    background-color: #4EB9F6;
+    color: white;
+    padding: 30px 0;
+}
+.table tr:nth-child(odd){
+    background-color: #EAEAEA;
+}
+.table tr:nth-child(even){
+    background-color: white;
+}
+.send-money-btn {
+    background-color: #7DFAB6;
+    font-size: 12px;
+}
+@media (max-width: 767px) {
+    .header-div .header-content {
+        width: 100%;
+        margin-top: 50%;
+    }
+}
